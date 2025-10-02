@@ -74,6 +74,11 @@
             0,
             65536});
             this.numericUpDownSalary.Location = new System.Drawing.Point(405, 173);
+            this.numericUpDownSalary.Maximum = new decimal(new int[] {
+            1000000,
+            0,
+            0,
+            0});
             this.numericUpDownSalary.Name = "numericUpDownSalary";
             this.numericUpDownSalary.Size = new System.Drawing.Size(120, 22);
             this.numericUpDownSalary.TabIndex = 3;
