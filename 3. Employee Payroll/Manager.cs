@@ -19,7 +19,4 @@ namespace _3.Employee_Payroll
             return $"{GetDetails()}\nDepartment: {Department}";
         }
     }
-    {
-
-    }
 }
