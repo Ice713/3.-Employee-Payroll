@@ -16,5 +16,10 @@ namespace _3.Employee_Payroll
         {
             InitializeComponent();
         }
+
+        private void buttonSave_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
