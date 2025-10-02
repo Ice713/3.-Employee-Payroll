@@ -14,7 +14,7 @@ namespace _3.Employee_Payroll
         {
             Department = department;
         }
-        public string GetDetails()
+        public override string GetDetails()
         {
             return $"{GetDetails()}\nDepartment: {Department}";
         }

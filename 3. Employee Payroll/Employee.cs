@@ -18,7 +18,7 @@ namespace _3.Employee_Payroll
             Salary = salary;
         }
 
-        public string GetDetails()
+        public virtual string GetDetails()
         {
             return $"Name: {Name}\nSalary: {Salary:C}";
         }

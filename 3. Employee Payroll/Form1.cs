@@ -19,9 +19,9 @@ namespace _3.Employee_Payroll
 
         private void buttonSave_Click(object sender, EventArgs e)
         {
-            Manager manager = new Manager(textBoxName.Text, Convert.ToDouble(numericUpDownSalary), textBoxDepartment.Text);
+            Manager manager = new Manager(textBoxName.Text, Convert.ToDouble(numericUpDownSalary.Text), textBoxDepartment.Text);
 
-            string details = manager.GetDetails();
+            string details = manager.GetManagerDetails();
 
             MessageBox.Show(details, "Employee Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
