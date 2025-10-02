@@ -21,7 +21,7 @@ namespace _3.Employee_Payroll
         {
             Manager manager = new Manager(textBoxName.Text, Convert.ToDouble(numericUpDownSalary.Text), textBoxDepartment.Text);
 
-            string details = manager.GetManagerDetails();
+            string details = manager.GetDetails();
 
             MessageBox.Show(details, "Employee Details", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
