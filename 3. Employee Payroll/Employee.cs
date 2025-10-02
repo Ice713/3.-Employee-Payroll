@@ -11,5 +11,16 @@ namespace _3.Employee_Payroll
     {
         public string Name { get; set; }
         public double Salary { get; set; }
+
+        public Employee(string name, double salary)
+        {
+            Name = name;
+            Salary = salary;
+        }
+
+        public string GetDetails()
+        {
+            return $"Name: {Name}\nSalary: {Salary:C}";
+        }
     }
 }
